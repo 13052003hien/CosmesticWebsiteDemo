@@ -45,6 +45,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (1).jpg",
+      "PackagePath": "staticwebassets\\images\\images (1).jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (2).jpg",
+      "PackagePath": "staticwebassets\\images\\images (2).jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (3).jpg",
+      "PackagePath": "staticwebassets\\images\\images (3).jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images.jpg",
+      "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

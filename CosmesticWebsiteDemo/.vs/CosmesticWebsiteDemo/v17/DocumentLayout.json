@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\L\u1EADp Tr\u00ECnh Web\\\u0110\u1ED3 \u00C1n\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\\u0111\u1ED3 \u00E1n\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\\u0111\u1ED3 \u00E1n\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\\u0111\u1ED3 \u00E1n\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\\u0111\u1ED3 \u00E1n\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\\u0110\u1ED3 \u00C1n\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
@@ -34,18 +34,17 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-02T05:16:55.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T05:16:55.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\\u0110\u1ED3 \u00C1n\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Program.cs",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Program.cs",
               "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\\u0110\u1ED3 \u00C1n\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Program.cs",
               "RelativeToolTip": "CosmesticWebsiteDemo\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T05:12:41.443Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Properties\\launchSettings.json",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T05:09:34.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T05:09:34.841Z"
             }
           ]
         }
