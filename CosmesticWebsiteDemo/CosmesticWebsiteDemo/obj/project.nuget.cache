@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HP3jf++9Y4OW3Ny4N5KZdtMhJga5kSWvuNcdDwDWcKjDahUsGOqF+RLbyR8BYXGyzJNHVeOFAhnXyolyludWww==",
+  "dgSpecHash": "FYl74v4QzZEgn35fA3KidnWhyDgPPMowAvw6sISCSx2DVnVkmA1AW7arJMT51rbGrOQpx07EjbtEKBYChDgAJw==",
   "success": true,
-  "projectFilePath": "D:\\Lập Trình Web\\Đồ Án\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj",
+  "projectFilePath": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hienx\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
