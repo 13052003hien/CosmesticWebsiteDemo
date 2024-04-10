@@ -75,9 +75,7 @@ namespace CosmesticWebsiteDemo.Controllers
         }
         public IActionResult Index()
         {
-            var cart =
-           HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new
-           ShoppingCart();
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
             return View(cart);
         }
         // Các actions khác...

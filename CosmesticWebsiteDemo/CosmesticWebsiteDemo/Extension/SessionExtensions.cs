@@ -15,5 +15,7 @@ namespace CosmesticWebsiteDemo.Extension
             return value == null ? default :
             JsonSerializer.Deserialize<T>(value);
         }
+
     }
+
 }
