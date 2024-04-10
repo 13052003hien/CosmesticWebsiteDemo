@@ -1,7 +1,7 @@
 ﻿@model ShoppingCart
 @{
     ViewData["Title"] = "Home Page";
-   
+    
 }
 @* <h2>Đơn Hàng của bạn</h2>
 <table>
@@ -98,30 +98,31 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-8">
+
                 @foreach (var item in Model.Items)
                 {
                     <div class="card border shadow-none">
                         <div class="card-body">
                             <div class="d-flex align-items-start border-bottom pb-3">
                                 <div class="me-4">
-                                    <img src="https://www.bootdey.com/image/380x380/FF00FF/000000" alt class="avatar-lg rounded">
+                                    @* <img src="@Html.DisplayFor(model => model.ImageUrl)" width="200px" /> *@
                                 </div>
                                 <div class="flex-grow-1 align-self-center overflow-hidden">
                                     <div>
                                         <h5 class="text-truncate font-size-18"><a href="#" class="text-dark">@item.Name</a></h5>
-                                        <p class="text-muted mb-0">
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                            <i class="bx bxs-star text-warning"></i>
-                                        </p>
+                                        @* <p class="text-muted mb-0">
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    <i class="bx bxs-star text-warning"></i>
+                                    </p> *@
                                         @* <p class="mb-0 mt-1">Color : <span class="fw-medium">Green</span></p> *@
                                     </div>
                                 </div>
                                 <div class="flex-shrink-0 ms-2">
                                     <ul class="list-inline mb-0 font-size-16">
                                         <li class="list-inline-item">
-                                            <a href="#" class="text-muted px-1">
+                                            <a asp-action="RemoveFromCart" asp-route-productId="@item.ProductId" class="text-muted px-1">
                                                 <i class="mdi mdi-trash-can-outline"></i>
                                             </a>
                                         </li>
@@ -138,41 +139,55 @@
                                     <div class="col-md-4">
                                         <div class="mt-3">
                                             <p class="text-muted mb-2">Price</p>
-                                            <h5 class="mb-0 mt-2"><span class="text-muted me-2"></span>@item.Price</h5>
+                                            <h5 class="mb-0 mt-2"><span class="text-muted me-2"></span>@string.Format("{0:0,0}", item.Price)</h5>
                                         </div>
                                     </div>
                                     <div class="col-md-5">
                                         <div class="mt-3">
                                             <p class="text-muted mb-2">Quantity</p>
                                             <div class="d-inline-flex">
-                                                <select class="form-select form-select-sm w-xl"> @item.Quantity
-                                                </select>
+                                                <h5>
+                                                    <form asp-controller="ShoppingCart" asp-action="UpdateToCart" method="post">
+                                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                                        <label for="Quantity"> Quantity </label>
+                                                        <input type="number" id="Quantity" name="Quantity" value="@item.Quantity" min="1" onchange="this.form.submit()" />
+                                                    </form>
+                                                </h5>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="mt-3">
                                             <p class="text-muted mb-2">Total</p>
-                                            <h5>@(item.Price * @item.Quantity)</h5>
+                                            <h5>@string.Format("{0:0,0}", item.Price * item.Quantity)</h5>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="text-sm-end mt-2 mt-sm-0">
+                                                <a asp-action="Checkout" asp-route-productId="@item.ProductId">
+                                                    <button class="btn btn-outline-dark"> <i class="bi-cart-fill me-1"></i> Checkout </button>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
                 }
                 <div class="row my-4">
                     <div class="col-sm-6">
-                        <a href="ecommerce-products.html" class="btn btn-link text-muted">
+                        <a asp-controller="Product" asp-action="Index" class="btn btn-link text-muted">
                             <i class="mdi mdi-arrow-left me-1"></i> Continue Shopping
                         </a>
                     </div>
                     <div class="col-sm-6">
-                        <div class="text-sm-end mt-2 mt-sm-0">
-                            <a href="ecommerce-checkout.html" class="btn btn-success">
-                                <i class="mdi mdi-cart-outline me-1"></i> Checkout
+                        @* <div class="text-sm-end mt-2 mt-sm-0">
+                            <a asp-action="Checkout" asp-route-productId="@item.ProductId">
+                                <button class="btn btn-outline-dark"> <i class="bi-cart-fill me-1"></i> Checkout </button>
                             </a>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
             </div>
@@ -206,8 +221,8 @@
                                             <th>Total :</th>
                                             <td class="text-end">
                                                 <span class="fw-bold">
-                                                    $ 745.2
-                                                </span>
+                                                    @String.Format("{0:0,0}", ViewBag.TongTien) VNĐ
+                                               </span>
                                             </td>
                                         </tr>
                                     </tbody>

@@ -3,10 +3,12 @@
     "",
     "\\CosmesticWebsiteDemo",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart"
   ],
-  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart\\Checkout.cshtml",
+  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\extension\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\extension\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\code\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,84 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Extension\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Extension\\SessionExtensions.cs",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Extension\\SessionExtensions.cs",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Extension\\SessionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:02:27.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAiwDMAAAANAAAA",
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T08:24:02.483Z",
+              "WhenOpened": "2024-04-10T13:07:18.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAArwEEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T08:20:37.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T07:55:24.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-10T07:49:28.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAGcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T01:49:12.541Z",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwGkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:31:49.188Z",
               "EditorCaption": ""
             },
             {
@@ -138,36 +90,94 @@
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJYAAAAuAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAL4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-05T01:28:31.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwCAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:04:36.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\DataAccess\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\DataAccess\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:51:23.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Models\\CartItem.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Models\\CartItem.cs",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:59:33.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T08:20:37.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAGcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T01:49:12.541Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T07:49:28.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
               "RelativeToolTip": "CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAvAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T07:31:30.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Program.cs",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Program.cs",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Program.cs",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAD4AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T05:12:41.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T07:31:30.139Z"
             },
             {
               "$type": "Document",
@@ -179,8 +189,7 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Properties\\launchSettings.json",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T05:09:34.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T05:09:34.841Z"
             }
           ]
         }

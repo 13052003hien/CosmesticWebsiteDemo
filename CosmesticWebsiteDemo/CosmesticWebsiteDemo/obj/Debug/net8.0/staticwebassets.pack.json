@@ -37,6 +37,22 @@
       "PackagePath": "staticwebassets\\admin\\js\\scripts.js"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\checkout\\dist\\index.html",
+      "PackagePath": "staticwebassets\\checkout\\dist\\index.html"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\checkout\\dist\\style.css",
+      "PackagePath": "staticwebassets\\checkout\\dist\\style.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\checkout\\src\\index.html",
+      "PackagePath": "staticwebassets\\checkout\\src\\index.html"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\checkout\\src\\style.css",
+      "PackagePath": "staticwebassets\\checkout\\src\\style.css"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Code\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

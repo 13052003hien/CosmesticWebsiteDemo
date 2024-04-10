@@ -22,5 +22,15 @@
             Items.RemoveAll(i => i.ProductId == productId);
         }
         // Các phương thức khác...
+        public void UpdateQuantity(int productId,int quantity)
+        {
+            
+            var existingItem = Items.FirstOrDefault(i => i.ProductId == productId);
+            if (existingItem != null)
+            {
+                existingItem.Quantity = quantity;
+                
+            }
+        }
     }
 }

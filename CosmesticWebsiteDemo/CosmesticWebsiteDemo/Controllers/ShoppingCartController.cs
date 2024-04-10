@@ -5,6 +5,7 @@ using CosmesticWebsiteDemo.DataAccess;
 using CosmesticWebsiteDemo.Extension;
 using CosmesticWebsiteDemo.Models;
 using CosmesticWebsiteDemo.Repositories;
+using Newtonsoft.Json;
 
 
 namespace CosmesticWebsiteDemo.Controllers
@@ -71,11 +72,15 @@ namespace CosmesticWebsiteDemo.Controllers
            ShoppingCart();
             cart.AddItem(cartItem);
             HttpContext.Session.SetObjectAsJson("Cart", cart);
-            return RedirectToAction("Index");
-        }
+            return RedirectToAction("Index", "Product");
+
+         }
         public IActionResult Index()
         {
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            var carts = GetCartItems();
+            ViewBag.TongTien = carts.Sum(p => p.Price * p.Quantity);
+            ViewBag.TongSoLuong = carts.Sum(p => p.Quantity);
             return View(cart);
         }
         // Các actions khác...
@@ -96,6 +101,32 @@ namespace CosmesticWebsiteDemo.Controllers
                 // Lưu lại giỏ hàng vào Session sau khi đã xóa mục
                 HttpContext.Session.SetObjectAsJson("Cart", cart);
             }
+            return RedirectToAction("Index");
+        }
+        List<CartItem>? GetCartItems()
+        {
+            string jsoncart = HttpContext.Session.GetString("cart");
+            if (jsoncart != null)
+            {
+                return JsonConvert.DeserializeObject<List<CartItem>>(jsoncart);
+            }
+            return new List<CartItem>();
+        }
+        void SaveCartSession(List<CartItem> ls)
+        {
+            string jsoncart = JsonConvert.SerializeObject(ls);
+            HttpContext.Session.SetString("cart", jsoncart);
+
+        }
+        public async Task<IActionResult> UpdateToCart(int productId, int quantity)
+        {
+            // Giả sử bạn có phương thức lấy thông tin sản phẩm từ productId
+           
+            var cart =
+           HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new
+           ShoppingCart();
+            cart.UpdateQuantity(productId, quantity);
+            HttpContext.Session.SetObjectAsJson("Cart", cart);
             return RedirectToAction("Index");
         }
     }
