@@ -1,7 +1,4 @@
-﻿
-
-
-@*Kiều nè*@
+﻿@*Kiều nè*@
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,8 +68,9 @@
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="account_selection">
-                                    <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng Nhập</a></li>
-                                    <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng Ký</a></li>
+                                    @* <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng Nhập</a></li>
+                                    <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng Ký</a></li> *@
+                                    <partial name="_LoginPartial"></partial>
                                 </ul>
                             </li>
                         </ul>
@@ -90,50 +88,43 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Trang chủ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Về chúng tôi</a></li>
-                    
-                    <li class="nav-item dropdown">
-                        @*  <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#!">All Products</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                        <li><a class="dropdown-item" href="#!">New Arrivals</a> *@</li> 
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="ContactMail">Liên hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
                 </ul>
                 </li>
-                 <partial name="_LoginPartial"></partial> 
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="colorlib-about">
-        <div class="container">
-            <div class="row row-pb-lg">
-                <div class="col-sm-6 mb-3">
-                    <img src="https://media.vneconomy.vn/images/upload/2022/12/12/1-5.jpg" style="width:90%;height:90%;">
-                </div>
-                <div class="col-sm-6">
-                    <div class="about-wrap" style="font-family: Arial, Helvetica, sans-serif;">
-                        <h2>Triết lý thương hiệu</h2>
-                        <br>
-                        <p><i>COCOON - Mỹ phẩm thuần chay - Cho nét đẹp thuần Việt</i></p>
-                        </br>
-                        <br>
-                        <p><b>Triết lý</b></p>
-                        </br>
-                        <p>
-                            Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày
-                            của người Việt Nam từ rau củ, trái cây, để làm sao để đưa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của
-                            chúng được giữ lại một cách nguyên vẹn và hoàn hảo. Những thực phẩm này rất giàu vitamin, chất chống oxi hóa và các khoáng chất
-                            để tăng cường sức khỏe của làn da. Vậy còn gì tuyệt vời hơn là đưa chúng lên làn da của bạn một cách trọn vẹn nhất có thể.
-                            Qua quá trình nghiên cứu và thử nghiệm, những công thức được hình thành và trở nên hoàn hảo.
-                            Chúng đã phát huy tác dụng và đáp ứng được mong mỏi của người Việt: an toàn và hiệu quả.
-                            Đối với chúng tôi, những gì đưa lên da phải an toàn, hiệu quả và không có nguồn gốc từ động vật
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    @* <div class="colorlib-about">
+    <div class="container">
+    <div class="row row-pb-lg">
+    <div class="col-sm-6 mb-3">
+    <img src="https://media.vneconomy.vn/images/upload/2022/12/12/1-5.jpg" style="width:90%;height:90%;">
     </div>
+    <div class="col-sm-6">
+    <div class="about-wrap" style="font-family: Arial, Helvetica, sans-serif;">
+    <h2>Triết lý thương hiệu</h2>
+    <br>
+    <p><i>COCOON - Mỹ phẩm thuần chay - Cho nét đẹp thuần Việt</i></p>
+    </br>
+    <br>
+    <p><b>Triết lý</b></p>
+    </br>
+    <p>
+    Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày
+    của người Việt Nam từ rau củ, trái cây, để làm sao để đưa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của
+    chúng được giữ lại một cách nguyên vẹn và hoàn hảo. Những thực phẩm này rất giàu vitamin, chất chống oxi hóa và các khoáng chất
+    để tăng cường sức khỏe của làn da. Vậy còn gì tuyệt vời hơn là đưa chúng lên làn da của bạn một cách trọn vẹn nhất có thể.
+    Qua quá trình nghiên cứu và thử nghiệm, những công thức được hình thành và trở nên hoàn hảo.
+    Chúng đã phát huy tác dụng và đáp ứng được mong mỏi của người Việt: an toàn và hiệu quả.
+    Đối với chúng tôi, những gì đưa lên da phải an toàn, hiệu quả và không có nguồn gốc từ động vật
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div> *@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -165,7 +156,7 @@
                     <div class="social-links">
                         <a href="https://www.facebook.com/CocoonVietnamOfficial"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/cocoon.vietnam/"><i class="fab fa-instagram"></i></a>
-                      @*   <a href="https://www.youtube.com/@cocoonvietnamofficial4200"><i class="fab fa-youtube"></i></a> *@
+                        @*   <a href="https://www.youtube.com/@cocoonvietnamofficial4200"><i class="fab fa-youtube"></i></a> *@
                     </div>
                 </div>
                 <div class="footer-col">

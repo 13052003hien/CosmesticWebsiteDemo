@@ -29,15 +29,15 @@
 
 }
 else
-{
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Contact" asp-action="ContactMail">Liên hệ</a>
-        </li>
-    <li class="nav-item">
+{   
+    @* <li class="nav-item">
         <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
     <li class="nav-item">
         <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    </li> *@
+
+        <li><a id="login" asp-area="Identity" asp-page="/Account/Login"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng Nhập</a></li>
+        <li><a id="register" asp-area="Identity" asp-page="/Account/Register"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng Ký</a></li>
 }
 </ul>
