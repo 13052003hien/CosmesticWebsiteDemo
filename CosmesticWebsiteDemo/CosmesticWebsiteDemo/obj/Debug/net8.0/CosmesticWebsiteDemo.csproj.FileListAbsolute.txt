@@ -862,3 +862,5 @@ D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\Cosme
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.pdb
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.genruntimeconfig.cache
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\ref\CosmesticWebsiteDemo.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

@@ -63,11 +63,25 @@
                 else
                 {
                     <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                        <div>
+                        <div class="d-flex gap-4">
                             <p>
                                 @foreach (var provider in Model.ExternalLogins!)
                                 {
-                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    if (provider.DisplayName == "Facebook")
+                                    {
+                                        <button type="submit" class="btn btn-outline-light" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                            <i class="bi bi-facebook"></i>
+                                            Log in with @provider.DisplayName
+                                        </button>
+                                    }
+
+                                    if (provider.DisplayName == "Google")
+                                    {
+                                        <button type="submit" class="btn btn-outline-light" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                            <i class="bi bi-google"></i>
+                                            Log in with @provider.DisplayName
+                                        </button>
+                                    }
                                 }
                             </p>
                         </div>

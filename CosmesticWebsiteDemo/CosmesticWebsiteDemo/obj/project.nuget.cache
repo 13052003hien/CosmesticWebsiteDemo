@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wjqjA1FjNrQ0wKpwk7pF/bgc5NpjNuAzbeKdyLCwydb5201YQz0b73/HFvmBvgnbz90tqpVcaYoL1I6NyE0uYA==",
+  "dgSpecHash": "hs2W2IChHwjLpYgrCPYNJplvU67WEZarOQVlRbGYLuyxNgGfihArwkiDVBmtdGnDJjnpODEeuoC1hlXG3A/ZKA==",
   "success": true,
   "projectFilePath": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,8 @@
     "C:\\Users\\hienx\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\hienx\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\8.0.4\\microsoft.aspnetcore.authentication.facebook.8.0.4.nupkg.sha512",
+    "C:\\Users\\hienx\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.4\\microsoft.aspnetcore.authentication.google.8.0.4.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.4\\microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.4\\microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
     "C:\\Users\\hienx\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.4\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.4.nupkg.sha512",
