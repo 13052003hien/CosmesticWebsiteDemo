@@ -35,17 +35,17 @@ builder.Services.AddScoped<UserManager<ApplicationUser>>();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 
-builder.Services.AddAuthentication()
-    .AddFacebook(options =>
-    {
-        options.ClientId = "408427395243646";
-        options.ClientSecret = "86a134c7f6467e04da942b69cf055bf7";
-    })
-    .AddGoogle(options =>
-     {
-         options.ClientId = "242219814251-hqjrpe0h7piql0dsp42gubkdtm07vnej.apps.googleusercontent.com";
-         options.ClientSecret = "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";
-     });
+//builder.Services.AddAuthentication()
+//    .AddFacebook(options =>
+//    {
+//        options.ClientId = "408427395243646";
+//        options.ClientSecret = "86a134c7f6467e04da942b69cf055bf7";
+//    })
+//    .AddGoogle(options =>
+//     {
+//         options.ClientId = "242219814251-hqjrpe0h7piql0dsp42gubkdtm07vnej.apps.googleusercontent.com";
+//         options.ClientSecret = "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";
+//     });
 
 var app = builder.Build();
 
