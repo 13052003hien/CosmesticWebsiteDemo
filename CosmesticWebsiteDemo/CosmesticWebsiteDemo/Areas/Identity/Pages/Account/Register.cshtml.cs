@@ -4,7 +4,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -13,13 +12,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using CosmesticWebsiteDemo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using CosmesticWebsiteDemo.Models;
 
 namespace CosmesticWebsiteDemo.Areas.Identity.Pages.Account
 {
@@ -72,22 +71,10 @@ namespace CosmesticWebsiteDemo.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
-            [Required]
-            [DisplayName("FirstName")]
-            public string FirstName { get; set; }
-            [Required]
-            [DisplayName("LastName")]
-            public string LastName { get; set; }
-            [Required]
-            public string FullName { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [DisplayName("Age")]
-            public int Age { get; set; }
-            [DisplayName("Address")]
-            public string Address { get; set; }
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]

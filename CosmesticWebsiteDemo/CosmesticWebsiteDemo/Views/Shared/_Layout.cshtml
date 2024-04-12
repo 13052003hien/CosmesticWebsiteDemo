@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+@*Kiều nè*@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,15 +10,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+
     <title>Trang chủ</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="~/homepage/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <!--Link of ColoShop template-->
+    <link rel="stylesheet" type="text/css" href="~/homepage/styles/bootstrap4/bootstrap.min.css">
+    <link href="~/homepage/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/homepage/styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/homepage/styles/responsive.css">
 </head>
 <body>
+    <!-- Top Navigation -->
+    <div class="top_nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="top_nav_left">Miễn ship cho đơn hàng từ 500.000vnd trở lên</div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="top_nav_right">
+                        <ul class="top_nav_menu">
+
+                            <!-- Currency / Language / My Account -->
+
+                            <li class="currency">
+                                <a href="#">
+                                    vnd
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="currency_selection">
+                                    <li><a href="#">cad</a></li>
+                                    <li><a href="#">aud</a></li>
+                                    <li><a href="#">eur</a></li>
+                                    <li><a href="#">gbp</a></li>
+                                    <li><a href="#">vnd</a></li>
+                                </ul>
+                            </li>
+                            <li class="language">
+                                <a href="#">
+                                    VietNam
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="language_selection">
+                                    <li><a href="#">VietNam</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                            <li class="account">
+                                <a href="#">
+                                    Tài khoản của tôi
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="account_selection">
+                                    <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng Nhập</a></li>
+                                    <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng Ký</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4 px-lg-5">
@@ -22,36 +88,113 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Về chúng tôi</a></li>
+                    
                     <li class="nav-item dropdown">
-                        @* <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        @*  <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#!">All Products</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                            <li><a class="dropdown-item" href="#!">New Arrivals</a></li> *@
-                        </ul>
-                    </li>
-                <partial name="_LoginPartial"></partial>
+                        <li><a class="dropdown-item" href="#!">All Products</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                        <li><a class="dropdown-item" href="#!">New Arrivals</a> *@</li> 
                 </ul>
-                
+                </li>
+                 <partial name="_LoginPartial"></partial> 
+                </ul>
             </div>
         </div>
     </nav>
+    <div class="colorlib-about">
+        <div class="container">
+            <div class="row row-pb-lg">
+                <div class="col-sm-6 mb-3">
+                    <img src="https://media.vneconomy.vn/images/upload/2022/12/12/1-5.jpg" style="width:90%;height:90%;">
+                </div>
+                <div class="col-sm-6">
+                    <div class="about-wrap" style="font-family: Arial, Helvetica, sans-serif;">
+                        <h2>Triết lý thương hiệu</h2>
+                        <br>
+                        <p><i>COCOON - Mỹ phẩm thuần chay - Cho nét đẹp thuần Việt</i></p>
+                        </br>
+                        <br>
+                        <p><b>Triết lý</b></p>
+                        </br>
+                        <p>
+                            Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày
+                            của người Việt Nam từ rau củ, trái cây, để làm sao để đưa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của
+                            chúng được giữ lại một cách nguyên vẹn và hoàn hảo. Những thực phẩm này rất giàu vitamin, chất chống oxi hóa và các khoáng chất
+                            để tăng cường sức khỏe của làn da. Vậy còn gì tuyệt vời hơn là đưa chúng lên làn da của bạn một cách trọn vẹn nhất có thể.
+                            Qua quá trình nghiên cứu và thử nghiệm, những công thức được hình thành và trở nên hoàn hảo.
+                            Chúng đã phát huy tác dụng và đáp ứng được mong mỏi của người Việt: an toàn và hiệu quả.
+                            Đối với chúng tôi, những gì đưa lên da phải an toàn, hiệu quả và không có nguồn gốc từ động vật
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Site footer -->
+    <footer class="footer">
         <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Tất cả sản phẩm</a></li>
+                        <li><a href="#">Sản phẩm bán chạy</a></li>
+                        <li><a href="#">Sản phẩm mới</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Hỗ trợ</h4>
+                    <ul>
+                        <li><a href="#">câu chuyện thương hiệu</a></li>
+                        <li><a href="#">liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Mạng xã hội</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/CocoonVietnamOfficial"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/cocoon.vietnam/"><i class="fab fa-instagram"></i></a>
+                      @*   <a href="https://www.youtube.com/@cocoonvietnamofficial4200"><i class="fab fa-youtube"></i></a> *@
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        SẢN XUẤT VÀ CHỊU TRÁCH NHIỆM VỀ HÀNG HOÁ CÔNG TY TNHH NATURE STORY
+                    </h4>
+                    <ul>
+                        <p>
+                            GCNĐKKD: 1101983767 / SỞ KẾ HOẠCH VÀ ĐẦU TƯ TỈNH LONG AN CẤP LẦN ĐẦU NGÀY: 15/04/2021 LÔ LF24A-LF25 ĐƯỜNG SỐ 2, KHU CÔNG NGHIỆP XUYÊN Á, XÃ MỸ HẠNH BẮC, HUYỆN ĐỨC HÒA, TỈNH LONG AN, VIỆT NAM
+                            ĐIỆN THOẠI: 19009300
+                            EMAIL: WE@COCOONVIETNAM.COM
+                        </p>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!--Link of ColoSgop Template-->
+    <script src="~/homepage/js/jquery-3.2.1.min.js"></script>
+    <script src="~/homepage/styles/bootstrap4/popper.js"></script>
+    <script src="~/homepage/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="~/homepage/plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="~/homepage/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/homepage/plugins/easing/easing.js"></script>
+    <script src="~/homepage/js/custom.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

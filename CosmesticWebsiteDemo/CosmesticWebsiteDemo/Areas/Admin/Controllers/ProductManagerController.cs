@@ -7,7 +7,7 @@ using CosmesticWebsiteDemo.Repositories;
 namespace CosmesticWebsiteDemo.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize(Roles ="admin")]
+    [Authorize(Roles ="Admin")]
     public class ProductManagerController : Controller
     {
         private readonly IProductRepository _productRepository;

@@ -5,11 +5,11 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using CosmesticWebsiteDemo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using CosmesticWebsiteDemo.Models;
 
 namespace CosmesticWebsiteDemo.Areas.Identity.Pages.Account
 {
