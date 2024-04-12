@@ -68,8 +68,6 @@
                                     <i class="fa fa-angle-down"></i>
                                 </a>
                                 <ul class="account_selection">
-                                    @* <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng Nhập</a></li>
-                                    <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng Ký</a></li> *@
                                     <partial name="_LoginPartial"></partial>
                                 </ul>
                             </li>
@@ -86,45 +84,17 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Trang chủ</a></li>
+                    <li class="nav-item"><a asp-controller="Home" asp-action="Index" class="nav-link active" aria-current="page">Trang chủ</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Về chúng tôi</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="ContactMail">Liên hệ</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Product" asp-action="Index">Sản phẩm</a></li>
+                    
                 </ul>
                 </li>
                 </ul>
             </div>
         </div>
     </nav>
-    @* <div class="colorlib-about">
-    <div class="container">
-    <div class="row row-pb-lg">
-    <div class="col-sm-6 mb-3">
-    <img src="https://media.vneconomy.vn/images/upload/2022/12/12/1-5.jpg" style="width:90%;height:90%;">
-    </div>
-    <div class="col-sm-6">
-    <div class="about-wrap" style="font-family: Arial, Helvetica, sans-serif;">
-    <h2>Triết lý thương hiệu</h2>
-    <br>
-    <p><i>COCOON - Mỹ phẩm thuần chay - Cho nét đẹp thuần Việt</i></p>
-    </br>
-    <br>
-    <p><b>Triết lý</b></p>
-    </br>
-    <p>
-    Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày
-    của người Việt Nam từ rau củ, trái cây, để làm sao để đưa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của
-    chúng được giữ lại một cách nguyên vẹn và hoàn hảo. Những thực phẩm này rất giàu vitamin, chất chống oxi hóa và các khoáng chất
-    để tăng cường sức khỏe của làn da. Vậy còn gì tuyệt vời hơn là đưa chúng lên làn da của bạn một cách trọn vẹn nhất có thể.
-    Qua quá trình nghiên cứu và thử nghiệm, những công thức được hình thành và trở nên hoàn hảo.
-    Chúng đã phát huy tác dụng và đáp ứng được mong mỏi của người Việt: an toàn và hiệu quả.
-    Đối với chúng tôi, những gì đưa lên da phải an toàn, hiệu quả và không có nguồn gốc từ động vật
-    </p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div> *@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

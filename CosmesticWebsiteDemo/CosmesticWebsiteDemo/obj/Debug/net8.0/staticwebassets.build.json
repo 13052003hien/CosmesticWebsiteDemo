@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IEAmXDObEzCPMYR8WbMcMkYbYxDCH2gn0pvpjT/K1CA=",
+  "Hash": "XnYSttxy5Ue22dOPIe1drHDN6J7Loqs/slIyIJcFZPo=",
   "Source": "CosmesticWebsiteDemo",
   "BasePath": "_content/CosmesticWebsiteDemo",
   "Mode": "Default",
@@ -2677,6 +2677,25 @@
       "OriginalItemSpec": "wwwroot\\homepage\\styles\\single_styles.css"
     },
     {
+      "Identity": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\2410625cd49d988844e325fe8deb57c6.jpg",
+      "SourceId": "CosmesticWebsiteDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\",
+      "BasePath": "_content/CosmesticWebsiteDemo",
+      "RelativePath": "images/2410625cd49d988844e325fe8deb57c6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2410625cd49d988844e325fe8deb57c6.jpg"
+    },
+    {
       "Identity": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\3b62d89443f7bcaf36fe0bec631bc824.jpg",
       "SourceId": "CosmesticWebsiteDemo",
       "SourceType": "Discovered",
@@ -2694,6 +2713,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\3b62d89443f7bcaf36fe0bec631bc824.jpg"
+    },
+    {
+      "Identity": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\55a018b0cd562336864ee6bec8eee079.jpg",
+      "SourceId": "CosmesticWebsiteDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\",
+      "BasePath": "_content/CosmesticWebsiteDemo",
+      "RelativePath": "images/55a018b0cd562336864ee6bec8eee079.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\55a018b0cd562336864ee6bec8eee079.jpg"
     },
     {
       "Identity": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (1).jpg",

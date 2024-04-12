@@ -317,8 +317,16 @@
       "PackagePath": "staticwebassets\\homepage\\styles\\single_styles.css"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\2410625cd49d988844e325fe8deb57c6.jpg",
+      "PackagePath": "staticwebassets\\images\\2410625cd49d988844e325fe8deb57c6.jpg"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\3b62d89443f7bcaf36fe0bec631bc824.jpg",
       "PackagePath": "staticwebassets\\images\\3b62d89443f7bcaf36fe0bec631bc824.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\55a018b0cd562336864ee6bec8eee079.jpg",
+      "PackagePath": "staticwebassets\\images\\55a018b0cd562336864ee6bec8eee079.jpg"
     },
     {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (1).jpg",
