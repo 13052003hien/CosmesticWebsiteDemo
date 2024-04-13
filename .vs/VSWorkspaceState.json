@@ -4,13 +4,14 @@
     "\\CosmesticWebsiteDemo",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas",
-    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity",
-    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages",
-    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Identity\\Pages\\Account",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart"
   ],
-  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Program.cs",
+  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
   "PreviewInSolutionExplorer": false
 }

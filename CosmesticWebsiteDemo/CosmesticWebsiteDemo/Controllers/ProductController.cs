@@ -19,6 +19,13 @@ namespace CosmesticWebsiteDemo.Controllers
         // Hiển thị danh sách sản phẩm
         public async Task<IActionResult> Index()
         {
+
+            // Kiểm tra xem TempData có chứa thông báo thành công không
+            if (TempData.ContainsKey("SuccessMessage"))
+            {
+                ViewBag.SuccessMessage = TempData["SuccessMessage"];
+                ViewBag.DisplayTime = TempData["DisplayTime"];
+            }
             var products = await _productRepository.GetAllAsync();
             return View(products);
         }

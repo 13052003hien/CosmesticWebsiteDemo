@@ -9,5 +9,7 @@
         public decimal Price { get; set; }
         public Order Order { get; set; }
         public Product Product { get; set; }
+        //public int PaymentId { get; set; }
+        //public PaymentMethod? PaymentMethod { get; set; }
     }
 }

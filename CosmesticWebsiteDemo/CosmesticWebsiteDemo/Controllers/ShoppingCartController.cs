@@ -72,6 +72,11 @@ namespace CosmesticWebsiteDemo.Controllers
            ShoppingCart();
             cart.AddItem(cartItem);
             HttpContext.Session.SetObjectAsJson("Cart", cart);
+
+            // Đặt nội dung thông báo vào TempData
+            TempData["SuccessMessage"] = "Sản phẩm đã được thêm vào giỏ hàng thành công!";
+            // Đặt thời gian hiển thị của thông báo (ví dụ: 5 giây)
+            TempData["DisplayTime"] = 2000; // Thời gian được tính bằng milliseconds
             return RedirectToAction("Index", "Product");
 
          }

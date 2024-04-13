@@ -49,8 +49,21 @@
                     </div>
                 }
             </div>
+
         </div>
     </div>
+    @if (ViewBag.SuccessMessage != null)
+    {
+        <div id="successMessage" class="alert alert-success" role="alert">
+            @ViewBag.SuccessMessage
+        </div>
+        <script>
+            // Ẩn thông báo sau thời gian quy định
+            setTimeout(function () {
+                document.getElementById('successMessage').style.display = 'none';
+            }, @ViewBag.DisplayTime);
+        </script>
+    }
     <!--Hiền mẫu chỗ này-->
 </body>
 </html>
