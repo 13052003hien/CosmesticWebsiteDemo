@@ -1,6 +1,7 @@
 using CosmesticWebsiteDemo.DataAccess;
 using CosmesticWebsiteDemo.Models;
 using CosmesticWebsiteDemo.Repositories;
+using CosmesticWebsiteDemo.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -34,6 +35,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<UserManager<ApplicationUser>>();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+    
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
 
 builder.Services.AddAuthentication()
     .AddFacebook(options =>

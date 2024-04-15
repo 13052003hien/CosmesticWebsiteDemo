@@ -576,7 +576,6 @@ D:\Lập Trình Web\Code\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebs
 D:\Lập Trình Web\Code\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\ref\CosmesticWebsiteDemo.dll
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\appsettings.Development.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\appsettings.json
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\CosmesticWebsiteDemo.staticwebassets.runtime.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\CosmesticWebsiteDemo.exe
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\CosmesticWebsiteDemo.deps.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\CosmesticWebsiteDemo.runtimeconfig.json
@@ -846,6 +845,15 @@ D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\Cosme
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.RazorAssemblyInfo.cache
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.RazorAssemblyInfo.cs
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.sourcelink.json
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\Cosmesti.A1F014A7.Up2Date
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\refint\CosmesticWebsiteDemo.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.pdb
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.genruntimeconfig.cache
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\ref\CosmesticWebsiteDemo.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\CosmesticWebsiteDemo.staticwebassets.runtime.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\staticwebassets.build.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\staticwebassets.development.json
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\staticwebassets\msbuild.CosmesticWebsiteDemo.Microsoft.AspNetCore.StaticWebAssets.props
@@ -856,11 +864,4 @@ D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\Cosme
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\scopedcss\bundle\CosmesticWebsiteDemo.styles.css
 D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\scopedcss\projectbundle\CosmesticWebsiteDemo.bundle.scp.css
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\Cosmesti.A1F014A7.Up2Date
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.dll
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\refint\CosmesticWebsiteDemo.dll
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.pdb
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\CosmesticWebsiteDemo.genruntimeconfig.cache
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\ref\CosmesticWebsiteDemo.dll
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
-D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo\obj\Debug\net8.0\scopedcss\Views\Shared\Components\CartSummary\Default.cshtml.rz.scp.css

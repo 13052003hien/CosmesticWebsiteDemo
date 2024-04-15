@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CosmesticWebsiteDemo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240413123031_initdb")]
+    [Migration("20240414070810_initdb")]
     partial class initdb
     {
         /// <inheritdoc />

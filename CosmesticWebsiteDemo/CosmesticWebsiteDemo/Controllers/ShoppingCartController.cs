@@ -6,6 +6,7 @@ using CosmesticWebsiteDemo.Extension;
 using CosmesticWebsiteDemo.Models;
 using CosmesticWebsiteDemo.Repositories;
 using Newtonsoft.Json;
+using CosmesticWebsiteDemo.Services;
 
 
 namespace CosmesticWebsiteDemo.Controllers
@@ -16,26 +17,44 @@ namespace CosmesticWebsiteDemo.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IProductRepository _productRepository;
+        private readonly IVnPayService _vnPayService;
         //public ShoppingCartController(IProductRepository productRepository)
         //{
         //    _productRepository = productRepository;
 
         //}
-        public ShoppingCartController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, IProductRepository productRepository)
+        public ShoppingCartController(ApplicationDbContext context, UserManager<ApplicationUser> userManager,
+            IProductRepository productRepository, IVnPayService vnPayService)
         {
             _context = context;
             _userManager = userManager;
             _productRepository = productRepository;
+            _vnPayService = vnPayService;
         }
         public IActionResult Checkout()
         {
             return View(new Order());
         }
         [HttpPost]
-        public async Task<IActionResult> Checkout(Order order)
+        public async Task<IActionResult> Checkout(Order order, string payment = "COD")
         {
+            var carts = GetCartItems();
+
+            if (payment == "Thanh toán VnPay")
+            {
+                var vnPayModel = new VnPaymentRequestModel
+                {
+                    Amount = /*carts.Sum(p => (double)p.Price * p.Quantity)*/ 10000,
+                    CreatedDate = DateTime.Now,
+                    Description = "Đơn hàng thành công",
+                    FullName = "Khách hàng",
+                    OrderId = new Random().Next(100, 1000)
+                };
+                return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
+            }
+
             var cart =
-           HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+       HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
             if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...
@@ -51,10 +70,15 @@ namespace CosmesticWebsiteDemo.Controllers
                 Quantity = i.Quantity,
                 Price = i.Price
             }).ToList();
+            //}
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
             HttpContext.Session.Remove("Cart");
             return View("OrderCompleted", order.Id); // Trang xác nhận hoàn thành đơn hàng
+        }
+        public IActionResult PaymentSuccess()
+        {
+            return View("OrderCompleted");
         }
         public async Task<IActionResult> AddToCart(int productId, int quantity)
         {
@@ -79,7 +103,7 @@ namespace CosmesticWebsiteDemo.Controllers
             TempData["DisplayTime"] = 2000; // Thời gian được tính bằng milliseconds
             return RedirectToAction("Index", "Product");
 
-         }
+        }
         public IActionResult Index()
         {
             var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
@@ -126,13 +150,37 @@ namespace CosmesticWebsiteDemo.Controllers
         public async Task<IActionResult> UpdateToCart(int productId, int quantity)
         {
             // Giả sử bạn có phương thức lấy thông tin sản phẩm từ productId
-           
+
             var cart =
            HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new
            ShoppingCart();
             cart.UpdateQuantity(productId, quantity);
             HttpContext.Session.SetObjectAsJson("Cart", cart);
             return RedirectToAction("Index");
+        }
+
+        [Authorize]
+        public IActionResult PaymentFail()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult PaymentCallBack()
+        {
+            var response = _vnPayService.PaymentExecute(Request.Query);
+
+            if (response == null || response.VnPayResponseCode != "00")
+            {
+                TempData["Message"] = $"Lỗi thanh toán VN Pay: {response.VnPayResponseCode}";
+                return RedirectToAction("PaymentFail");
+            }
+
+
+            // Lưu đơn hàng vô database
+
+            TempData["Message"] = $"Thanh toán VNPay thành công";
+            return View("OrderCompleted");
         }
     }
 }

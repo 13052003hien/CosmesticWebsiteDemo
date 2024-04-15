@@ -7,11 +7,11 @@
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Models",
+    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Services",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views",
-    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product",
-    "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart"
   ],
-  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ShoppingCartController.cs",
+  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo.sln",
   "PreviewInSolutionExplorer": false
 }

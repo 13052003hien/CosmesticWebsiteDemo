@@ -17,7 +17,10 @@ namespace CosmesticWebsiteDemo.Repositories
         {
             return await _context.Products.ToListAsync();
         }
-
+        public async Task<IEnumerable<Product>> GetByNameAsync(string SearchString)
+        {
+            return await _context.Products.Include(x => x.Category).Where(n => n.Name.Contains(SearchString)).ToListAsync();
+        }
         public async Task<Product> GetByIdAsync(int id)
         {
             return await _context.Products.FindAsync(id);

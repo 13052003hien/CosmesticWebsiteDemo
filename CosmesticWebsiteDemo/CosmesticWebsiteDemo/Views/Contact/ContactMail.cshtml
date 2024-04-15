@@ -1,58 +1,107 @@
-﻿
-@{
-    ViewData["Title"] = "ContactMail";
-}
-@model CosmesticWebsiteDemo.Models.Contact
+﻿@model CosmesticWebsiteDemo.Models.Contact
 
 @{
-    ViewData["Title"] = "ContactMail";
+    ViewData["Title"] = "Liên Hệ";
 }
+<style>
+    .contact-form-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 600px; /* Adjust for content height */
+        padding: 2rem;
+    }
 
-<h1>ContactMail</h1>
+    .contact-form {
+        width: 50%;
+        background-color: #ddd8c5;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-<h4>Contact</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+        .contact-form h1, .contact-form h4 {
+            margin-bottom: 1rem;
+        }
+
+        .contact-form .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .contact-form .control-label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-form .btn-primary {
+            background-color: #f05e23; /* Adjust brand color */
+            border-color: #f05e23;
+            padding: 0.75rem 1.25rem;
+            border-radius: 5px;
+        }
+
+            .contact-form .btn-primary:hover {
+                background-color: #e34f19;
+                border-color: #e34f19;
+            }
+
+    .contact-image {
+        width: 50%;
+        background-image: url("https://cocoonvietnam.com/_nuxt/img/footer-image.5d68be7.jpg");
+        height: 500px;
+        width: 500px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1000px;
+    }
+
+    }
+</style>
+
+<h1>Liên Hệ </h1>
+
+<div class="contact-form-container">
+    <div class="contact-image">
+    </div> <div class="contact-form">
+        <h4>Thông tin liên hệ </h4>
+        <hr />
+
         <form asp-action="ContactMail">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
+                <label asp-for="Email" class="control-label">Địa chì Email*</label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
+                <label asp-for="Name" class="control-label">Họ và tên của bạn*</label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
+                <label asp-for="Phone" class="control-label">Số điện thoại của bạn*</label>
                 <input asp-for="Phone" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Message" class="control-label"></label>
-                <input asp-for="Message" class="form-control" />
+                <label asp-for="Message" class="control-label">Nhập câu hỏi bạn muốn phản hồi ở đây*</label>
+                <textarea asp-for="Message" rows="5" class="form-control"></textarea>
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Send" class="btn btn-primary" />
+                <input type="submit" value="Gửi cho CoCoon" class="btn btn-primary" />
             </div>
         </form>
-    </div>
-</div>
-@if (ViewBag.ConfirmMsg != null)
-{
-    <div class="alert alert-success">@ViewBag.ConfirmMsg</div>
-}
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
 
+        @if (ViewBag.ConfirmMsg != null)
+        {
+            <div class="alert alert-success">@ViewBag.ConfirmMsg</div>
+        }
+
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
+        }

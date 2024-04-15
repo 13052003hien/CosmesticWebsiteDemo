@@ -29,7 +29,7 @@ namespace CosmesticWebsiteDemo.Controllers
             var products = await _productRepository.GetAllAsync();
             return View(products);
         }
-        
+
 
         // Hiển thị thông tin chi tiết sản phẩm
 
@@ -45,7 +45,22 @@ namespace CosmesticWebsiteDemo.Controllers
             }
             return View(product);
         }
+        public async Task<IActionResult> Search(string searchString)
+        {
+            if (searchString == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                // Gọi phương thức tìm kiếm sản phẩm từ repository
+                var products = await _productRepository.GetByNameAsync(searchString);
 
-       
+                // Trả về view hiển thị kết quả tìm kiếm
+                return View("Search", products);
+            }
+        }
+
+
     }
 }

@@ -301,6 +301,10 @@
       "PackagePath": "staticwebassets\\homepage\\styles\\contact_styles.css"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\homepage\\styles\\kieuheader.css",
+      "PackagePath": "staticwebassets\\homepage\\styles\\kieuheader.css"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\homepage\\styles\\main_styles.css",
       "PackagePath": "staticwebassets\\homepage\\styles\\main_styles.css"
     },
@@ -317,6 +321,10 @@
       "PackagePath": "staticwebassets\\homepage\\styles\\single_styles.css"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\03633b1eaf9dc91d752773b6d31c31c5.jpg",
+      "PackagePath": "staticwebassets\\images\\03633b1eaf9dc91d752773b6d31c31c5.jpg"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\2410625cd49d988844e325fe8deb57c6.jpg",
       "PackagePath": "staticwebassets\\images\\2410625cd49d988844e325fe8deb57c6.jpg"
     },
@@ -325,8 +333,16 @@
       "PackagePath": "staticwebassets\\images\\3b62d89443f7bcaf36fe0bec631bc824.jpg"
     },
     {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\4e73e86cfc05ae77ff96cddd91b7cf28.jpg",
+      "PackagePath": "staticwebassets\\images\\4e73e86cfc05ae77ff96cddd91b7cf28.jpg"
+    },
+    {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\55a018b0cd562336864ee6bec8eee079.jpg",
       "PackagePath": "staticwebassets\\images\\55a018b0cd562336864ee6bec8eee079.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\80a8762a3fd3d70ff3e812760e35da99.jpg",
+      "PackagePath": "staticwebassets\\images\\80a8762a3fd3d70ff3e812760e35da99.jpg"
     },
     {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images (1).jpg",
@@ -343,6 +359,50 @@
     {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\images.jpg",
       "PackagePath": "staticwebassets\\images\\images.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\bootstrap4\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\images\\styles\\bootstrap4\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\bootstrap4\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\images\\styles\\bootstrap4\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\bootstrap4\\popper.js",
+      "PackagePath": "staticwebassets\\images\\styles\\bootstrap4\\popper.js"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\categories_responsive.css",
+      "PackagePath": "staticwebassets\\images\\styles\\categories_responsive.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\categories_styles.css",
+      "PackagePath": "staticwebassets\\images\\styles\\categories_styles.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\contact_responsive.css",
+      "PackagePath": "staticwebassets\\images\\styles\\contact_responsive.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\contact_styles.css",
+      "PackagePath": "staticwebassets\\images\\styles\\contact_styles.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\main_styles.css",
+      "PackagePath": "staticwebassets\\images\\styles\\main_styles.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\responsive.css",
+      "PackagePath": "staticwebassets\\images\\styles\\responsive.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\single_responsive.css",
+      "PackagePath": "staticwebassets\\images\\styles\\single_responsive.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\images\\styles\\single_styles.css",
+      "PackagePath": "staticwebassets\\images\\styles\\single_styles.css"
     },
     {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\js\\site.js",
@@ -575,6 +635,70 @@
     {
       "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\Script\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\product\\Script\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\Styles\\cosmeticwebsite.css",
+      "PackagePath": "staticwebassets\\product\\Styles\\cosmeticwebsite.css"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\bidao.png",
+      "PackagePath": "staticwebassets\\product\\images\\bidao.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\buoi.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\buoi.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\caphe.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\caphe.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\chongnang.png",
+      "PackagePath": "staticwebassets\\product\\images\\chongnang.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\daugoibuoi.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\daugoibuoi.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\hoahong.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\hoahong.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\logo.png",
+      "PackagePath": "staticwebassets\\product\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\main.png",
+      "PackagePath": "staticwebassets\\product\\images\\main.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\matnanghe.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\matnanghe.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\nghe.png",
+      "PackagePath": "staticwebassets\\product\\images\\nghe.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\taydachet.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\taydachet.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\taytrangbidao.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\taytrangbidao.jpg"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\tinhchatnghe.png",
+      "PackagePath": "staticwebassets\\product\\images\\tinhchatnghe.png"
+    },
+    {
+      "Id": "D:\\Lập Trình Web\\Thực hành\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\wwwroot\\product\\images\\tinhdaubuoi.jpg",
+      "PackagePath": "staticwebassets\\product\\images\\tinhdaubuoi.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CosmesticWebsiteDemo.Microsoft.AspNetCore.StaticWebAssets.props",
