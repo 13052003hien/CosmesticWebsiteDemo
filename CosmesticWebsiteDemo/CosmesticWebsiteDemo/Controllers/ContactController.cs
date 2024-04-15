@@ -1,4 +1,6 @@
-﻿using CosmesticWebsiteDemo.Models;
+﻿using CosmesticWebsiteDemo.DataAccess;
+using CosmesticWebsiteDemo.Models;
+using CosmesticWebsiteDemo.Repositories;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,10 +9,14 @@ namespace CosmesticWebsiteDemo.Controllers
     public class ContactController : Controller
     {
         private readonly IEmailSender _emailSender;
+        private readonly ApplicationDbContext _context;
+        private readonly IContactRepository _contactRepository;
 
-        public ContactController(IEmailSender emailSender)
+        public ContactController(IEmailSender emailSender, ApplicationDbContext context, IContactRepository contactRepository)
         {
             _emailSender = emailSender;
+            _context = context;
+            _contactRepository = contactRepository;
         }
 
         [HttpGet]
@@ -25,7 +31,8 @@ namespace CosmesticWebsiteDemo.Controllers
             var msg = contact.Name + "" + contact.Message;
             await _emailSender.SendEmailAsync(contact.Email, "Contact Mail", msg);
             ViewBag.ConfirmMsg = "Thanks for your Mail";
+            await _contactRepository.AddContactAsync(contact);
             return View();
         }
     }
-}
+} 

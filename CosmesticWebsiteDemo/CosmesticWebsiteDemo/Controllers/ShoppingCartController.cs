@@ -38,13 +38,14 @@ namespace CosmesticWebsiteDemo.Controllers
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order, string payment = "COD")
         {
-            var carts = GetCartItems();
-
+           
+            var cart =
+       HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
             if (payment == "Thanh toán VnPay")
             {
                 var vnPayModel = new VnPaymentRequestModel
                 {
-                    Amount = /*carts.Sum(p => (double)p.Price * p.Quantity)*/ 10000,
+                    Amount = (double)cart.Items.Sum(p => p.Price * p.Quantity),
                     CreatedDate = DateTime.Now,
                     Description = "Đơn hàng thành công",
                     FullName = "Khách hàng",
@@ -53,8 +54,7 @@ namespace CosmesticWebsiteDemo.Controllers
                 return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
             }
 
-            var cart =
-       HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            
             if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...

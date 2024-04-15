@@ -32,9 +32,20 @@
         padding: 0.5px 4px;
     }
 </style>
-<div  class="cart-wrapper" >
+@* <div  class="cart-wrapper" >
     @if (Model > 0)
     {
         <span class="jbrHBQ">@Model</span>
     }
-</div> 
+</div>
+<div class="cart-wrapper">
+ *@
+<div class="cart-wrapper">
+    <a asp-area="Controller" asp-controller="ShoppingCart" asp-action="Index">
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        @if (Model > 0)
+        {
+            <span class="jbrHBQ">@Model</span>
+        }
+    </a>
+</div>  

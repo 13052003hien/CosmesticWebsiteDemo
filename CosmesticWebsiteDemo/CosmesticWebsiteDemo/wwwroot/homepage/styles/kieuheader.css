@@ -1,88 +1,49 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
+/*font gg*/
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-#wrapper {
-    /* Kích thước màn hình là 1280 x 720 */
-    width: 100%;
-    height: 100vh;
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#header {
-    width: 100%;
-    padding: 0px 30px;
-    margin-top: 33px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-#menu {
-    list-style: none;
-    display: flex;
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-    #menu .item {
-        margin: 0px 25px;
-    }
-
-        #menu .item a {
-            color: #626A67;
-            text-decoration: none;
-        }
-
-
-#actions {
-    display: flex;
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
-    #actions .item {
-        margin-left: 22px;
-    }
-
-
-#banner {
-    width: 100%;
-    background-image: url("'/images/tải xuống 2.jpg'");
-    height: 463px;
-    margin-top: 40px;
-    display: flex;
-    padding: 0px 133px;
-    position: relative;
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
-    #banner .box-left, #banner .box-right {
-        width: 50%;
-    }
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
 
-        #banner .box-left h2 {
-            font-size: 48px;
-            margin-top: 75px;
-            color: #fff;
-        }
-
-        #banner .box-left p {
-            color: #D0D0D0;
-        }
-
-        #banner .box-left button {
-            width: 191px;
-            height: 40px;
-            margin-top: 41px;
-            background: #1d1a1a;
-            border: none;
-            outline: none;
-            color: #fff;
-            font-weight: bold;
-            border-radius: 20px;
-            transition: 0.4s;
-        }
-
-            #banner .box-left button:hover {
-                background: orange;
-            }
-
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}

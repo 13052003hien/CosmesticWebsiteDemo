@@ -35,7 +35,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<UserManager<ApplicationUser>>();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
-    
+builder.Services.AddScoped<IContactRepository, EFContactRepository>();
+
 builder.Services.AddSingleton<IVnPayService, VnPayService>();
 
 builder.Services.AddAuthentication()

@@ -15,8 +15,8 @@
             <a id="manage" class="nav-link text-dark" asp-area="Admin" asp-controller="ProductManager" asp-action="Index">Admmin</a>
         </li>
         <li class="nav-item">
-            @await Component.InvokeAsync("CartSummary")<a asp-area="Controller" asp-controller="ShoppingCart" asp-action="Index">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            @await Component.InvokeAsync("CartSummary")
+@*             <i class="fa fa-shopping-cart" aria-hidden="true"></i></a> *@
         </li>
         <li class="nav-item">
             <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
