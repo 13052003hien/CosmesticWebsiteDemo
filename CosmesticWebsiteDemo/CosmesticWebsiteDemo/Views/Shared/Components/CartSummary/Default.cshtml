@@ -31,6 +31,11 @@
         position: absolute;
         padding: 0.5px 4px;
     }
+
+    .center-parent {
+        display: flex;
+        justify-content: center;
+    }
 </style>
 @* <div  class="cart-wrapper" >
     @if (Model > 0)
@@ -40,12 +45,14 @@
 </div>
 <div class="cart-wrapper">
  *@
-<div class="cart-wrapper">
-    <a asp-area="Controller" asp-controller="ShoppingCart" asp-action="Index">
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-        @if (Model > 0)
-        {
-            <span class="jbrHBQ">@Model</span>
-        }
-    </a>
-</div>  
+<div class="center-parent">
+    <div class="cart-wrapper">
+        <a asp-area="Controller" asp-controller="ShoppingCart" asp-action="Index">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            @if (Model > 0)
+            {
+                <span class="jbrHBQ">@Model</span>
+            }
+        </a>
+    </div>
+</div>

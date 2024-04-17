@@ -17,7 +17,7 @@ namespace CosmesticWebsiteDemo.DataAccess
 
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
-
+        public DbSet<ApplicationUser>  ApplicationUser { get; set; }
         public DbSet<Contact> Contacts { get; set; }
 
     }
