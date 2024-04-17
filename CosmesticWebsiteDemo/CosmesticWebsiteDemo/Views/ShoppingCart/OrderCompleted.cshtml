@@ -1,5 +1,74 @@
 ﻿@{
     ViewData["Title"] = "OrderCompleted";
 }
-<h1>Sucess</h1>
-@* <h3 class="text-danger">@TempData["Message"]</h3> *@
+<style>
+    .order-details {
+        margin-top: 20px;
+    }
+
+        .order-details h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .order-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .order-details li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+    .actions {
+        margin-top: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-right: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .btn.btn-back-to-home {
+            background-color: #007bff; /* Green for back to home */
+        }
+
+        .btn.btn-track-order {
+            background-color: #ffc107; /* Yellow for track order */
+        }
+
+    .confirmation-message {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+
+</style>
+<h1>Đặt hàng thành công</h1>
+
+<p>Cảm ơn bạn đã đặt hàng tại cửa hàng của chúng tôi!</p>
+
+<div class="order-details">
+    <h2>Chi tiết đơn hàng:</h2>
+    <p>Mã đơn hàng: #123456</p>
+    <ul>
+        <li>Sản phẩm: Áo thun nam - Xanh dương x 2</li>
+        <li>Giá: 200.000 VNĐ</li>
+    </ul>
+    <p>Tổng số tiền: 400.000 VNĐ</p>
+    <p>Địa chỉ giao hàng: Nguyễn Văn A, 123 Phố X, Quận Y, Thành phố Z</p>
+</div>
+
+<div class="actions">
+    <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-back-to-home">Quay lại trang chủ</a>
+    <a href="#" class="btn btn-track-order">Theo dõi đơn hàng</a>
+</div>
+
+<p>Bạn sẽ nhận được email xác nhận đơn hàng.</p>

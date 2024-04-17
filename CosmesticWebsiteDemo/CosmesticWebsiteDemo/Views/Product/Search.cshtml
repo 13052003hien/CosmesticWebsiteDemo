@@ -4,62 +4,7 @@
     ViewData["Title"] = "Home Page";
     int numOfQuantity = 1;
 }
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Trang chủ</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="~/homepage/css/styles.css" rel="stylesheet" />
-
-    <!--Bich CSS-->
-    <link rel="stylesheet" href="~/product/Styles/cosmeticwebsite.css">
-    <link rel="shortcut icon" href="~/product/imgaes/fav-icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
 <body>
-    <!--Product nhét đây nha :>>>-->
-    <!--Hiền mẫu chỗ này-->
-    @* <div class="row">
-    <div class="col">
-    <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
-    @foreach (var item in Model)
-    {
-    <div class="product-item men">
-    <div class="product discount product_filter">
-    <div class="product_image">
-    <img src="@item.ImageUrl" alt="" style="height: 200px">
-    </div>
-    <div class="favorite favorite_left"></div>
-    <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-    <div class="product_info">
-    <h6 class="product_name"><a href="single.html">@Html.DisplayFor(modelItem => item.Name)</a></h6>
-    <div class="product_price">@item.Price.ToString("#,##0") Vnd</div>
-    </div>
-    </div>
-    <div>
-    <a asp-action="Detail" asp-route-id="@item.Id">Chi tiết</a>
-    </div>
-    <div class="red_button add_to_cart_button">
-    <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-    </div>
-    </div>
-    }
-    </div>
-
-    </div>
-    </div> *@
     <section class="product-grid-3">
         <div class="product-grid-box product-grid-box1">
             <img src="~/product/images/bidao.png" />

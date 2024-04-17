@@ -26,26 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Lập Trình Web\Thực hành\CosmesticWebsiteDemo\CosmesticWebsiteDemo\CosmesticWebsiteDemo
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/OrdersManager/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzTWFuYWdlclxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/OrdersManager/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzTWFuYWdlclxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/OrdersManager/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzTWFuYWdlclxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/OrdersManager/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzTWFuYWdlclxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/OrdersManager/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJzTWFuYWdlclxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Admin/Views/ProductManager/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdE1hbmFnZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -104,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Lập Trình Web/Thực hành/CosmesticWebsiteDemo/CosmesticWebsiteDemo/CosmesticWebsiteDemo/Views/Contact/ContactMail.cshtml]

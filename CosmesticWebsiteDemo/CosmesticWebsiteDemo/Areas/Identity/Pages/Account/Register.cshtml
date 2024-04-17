@@ -6,7 +6,7 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<div class="row">
+@* <div class="row">
     <div class="col-md-4">
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h2>Đăng ký tài khoản</h2>
@@ -72,4 +72,77 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
-}
+} *@
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://vcdn-kinhdoanh.vnecdn.net/2022/01/19/COCOON-7313-1642561492.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-md-6 contents">
+                <div class="col-md-8">
+                    <div class="mb-4">
+                        <h3>Đăng ký</h3>
+                        <p>Vui lòng nhập đầy đủ các thông tin đăng ký</p>
+                    </div>
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="" />
+                            <label asp-for="Input.Email"><b>Email đăng ký</b></label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="" />
+                            <label asp-for="Input.Password"><b>Mật khẩu</b></label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="" />
+                            <label asp-for="Input.ConfirmPassword"><b>Xác nhận mật khẩu</b></label>
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng ký</button>
+                    </form>
+                    <span class="d-block text-left my-4 text-muted">&mdash; hoặc đăng nhập bằng phương thức khác &mdash;</span>
+                    @{
+                        if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                        {
+                        }
+                        else
+                        {
+                            <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                                <div class="d-flex gap-4">
+                                    <p>
+                                        @foreach (var provider in Model.ExternalLogins!)
+                                        {
+
+                                            if (provider.DisplayName == "Facebook")
+                                            {
+                                                <button type="submit" class="btn btn-outline-dark text-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                                    <i class="bi bi-facebook"></i>
+                                                    Đăng nhập bằng @provider.DisplayName
+                                                </button>
+                                            }
+
+                                            if (provider.DisplayName == "Google")
+                                            {
+                                                <button type="submit" class="btn btn-outline-danger bg-light" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
+                                                    <i class="bi bi-google"></i>
+                                                    Đăng nhập bằng @provider.DisplayName
+                                                </button>
+                                            }
+                                        }
+                                    </p>
+                                </div>
+                            </form>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+

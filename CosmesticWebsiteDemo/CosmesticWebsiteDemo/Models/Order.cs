@@ -9,7 +9,6 @@ namespace CosmesticWebsiteDemo.Models
         public DateTime OrderDate { get; set; }
         public decimal TotalPrice { get; set; }
         public string ShippingAddress { get; set; }
-        public string Status { get; set; }
         public string Phone {  get; set; }
         public string Notes { get; set; }
         public ApplicationUser User { get; set; }

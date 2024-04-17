@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CosmesticWebsiteDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e109dc9fb9ec70cf1662a2c4d562ada3f997d26e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0981752d815b432ae4c91d18f5fac17a48372b5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CosmesticWebsiteDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CosmesticWebsiteDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

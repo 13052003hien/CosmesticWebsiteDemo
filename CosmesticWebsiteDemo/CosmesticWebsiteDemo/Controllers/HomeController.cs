@@ -1,32 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using CosmesticWebsiteDemo.Models;
+using CosmesticWebsiteDemo.Repositories;
 
 namespace WebXeHoi.Controllers
 {
+
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IProductRepository _productRepository;
+       
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IProductRepository productRepository)
         {
-            _logger = logger;
+            _productRepository = productRepository;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(Product product)
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            // Ki?m tra xem TempData có ch?a thông báo thành công không
+            if (TempData.ContainsKey("SuccessMessage"))
+            {
+                ViewBag.SuccessMessage = TempData["SuccessMessage"];
+                ViewBag.DisplayTime = TempData["DisplayTime"];
+            }
+            var products = await _productRepository.GetAllAsync();
+            return View(products);
         }
     }
 }

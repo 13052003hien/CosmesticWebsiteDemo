@@ -1,7 +1,79 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "PaymentFail";
 }
+<style>
+    .error-message {
+        font-size: 24px;
+        font-weight: bold;
+        color: #8B8B7A; /* Red for error */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 
-<h1>PaymentFail</h1>
+    .reasons {
+        margin-top: 20px;
+    }
+
+        .reasons ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .reasons li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+
+    .actions {
+        margin-top: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-right: 10px;
+        background-color: #C6E2FF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        .btn.btn-retry {
+            background-color: #87CEFA; /* Green for retry */
+        }
+
+        .btn.btn-alternative {
+            background-color: #CD853F; /* Yellow for alternative payment */
+        }
+
+        .btn.btn-support {
+            background-color: #CDC5BF; /* Gray for support */
+        }
+
+    .reassurance {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #666;
+    }
+
+</style>
+<h2>Thanh toán không thành công</h2>
+<p class="error-message">Rất tiếc, thanh toán của bạn không thành công.</p>
+
+<div class="reasons">
+    <h3>Lý do:</h3>
+    <ul>
+        <li>Số dư tài khoản không đủ.</li>
+        <li>Thông tin thẻ không hợp lệ.</li>
+        <li>Lỗi hệ thống thanh toán.</li>
+    </ul>
+</div>
+
+<div class="actions">
+    <a asp-area="" asp-controller="ShoppingCart" asp-action="Index" class="btn btn-retry">Thử thanh toán lại</a>
+    <a asp-area="" asp-controller="Contact" asp-action="ContactMail" class="btn btn-support">Liên hệ Hỗ trợ</a>
+</div>
+
+<p class="reassurance">Vui lòng yên tâm, thông tin thanh toán của bạn được bảo mật tuyệt đối.</p>
 
