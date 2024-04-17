@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <!--Link of ColoShop template-->
     <link rel="stylesheet" type="text/css" href="~/homepage/styles/bootstrap4/bootstrap.min.css">
-    <link href="~/homepage/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    @*<link href="~/homepage/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> *@
     <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="~/homepage/plugins/OwlCarousel2-2.2.1/animate.css">
@@ -80,19 +80,24 @@
                             <button type="submit" id="search-button">Tìm kiếm</button>
                         </form>
                     </li> *@
-                   <form asp-controller="Product" asp-action="Search" method="get">
-                    <input type="text" name="searchString" placeholder="Tìm kiếm sản phẩm..." />
-                    <button type="submit">Tìm kiếm</button>
-                    </form> 
+             
+                   
+              
                 </ul>
-                </li>
-                </ul>
+                <div class="collapse navbar-collapse d-flex justify-content-end">
+                    <form asp-controller="Product" asp-action="Search" method="get" class="navbar-nav me-auto">
+                        <input type="text" name="searchString" placeholder="Tìm kiếm sản phẩm..." />
+                        <button id="search-button" type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </nav>
         <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
+                <main role="main" class="pb-3">
+                    @RenderBody()
             </main>
         </div>
 

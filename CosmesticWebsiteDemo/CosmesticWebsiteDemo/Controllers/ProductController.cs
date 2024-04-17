@@ -45,7 +45,7 @@ namespace CosmesticWebsiteDemo.Controllers
             }
             return View(product);
         }
-        public async Task<IActionResult> Search(string searchString)
+        public async Task<IActionResult> Search(string searchString = "Bí Dao")
         {
             if (searchString == null)
             {
@@ -59,8 +59,6 @@ namespace CosmesticWebsiteDemo.Controllers
                 // Trả về view hiển thị kết quả tìm kiếm
                 return View("Search", products);
             }
-        }
-
-
+        }  
     }
 }

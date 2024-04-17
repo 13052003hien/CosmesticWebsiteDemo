@@ -3,6 +3,12 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
+<style>
+    .center-parent {
+        display: flex;
+        justify-content: center;
+    }
+</style>
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
@@ -18,11 +24,13 @@
             @await Component.InvokeAsync("CartSummary")
 @*             <i class="fa fa-shopping-cart" aria-hidden="true"></i></a> *@
         </li>
-        <li class="nav-item">
+        <div class="center-parent">
+        <li class="nav-item" >
             <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Đăng xuất</button>
             </form>
         </li>
+        </div>
 
     }
     else

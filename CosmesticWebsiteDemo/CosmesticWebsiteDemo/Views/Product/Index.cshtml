@@ -4,47 +4,20 @@
     ViewData["Title"] = "Prduct";
     int numOfQuantity = 1;
 }
-
+<style>
+    .day {
+        text-align:center;
+    }
+</style>
 <body>
     <!--Product nhét đây nha :>>>-->
-    <!--Hiền mẫu chỗ này-->
-    @* <div class="row">
-        <div class="col">
-            <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
-                @foreach (var item in Model)
-                {
-                    <div class="product-item men">
-                        <div class="product discount product_filter">
-                            <div class="product_image">
-                                <img src="@item.ImageUrl" alt="" style="height: 200px">
-                            </div>
-                            <div class="favorite favorite_left"></div>
-                            <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-                            <div class="product_info">
-                                <h6 class="product_name"><a href="single.html">@Html.DisplayFor(modelItem => item.Name)</a></h6>
-                                <div class="product_price">@item.Price.ToString("#,##0") Vnd</div>
-                            </div>
-                        </div>
-                        <div>
-                            <a asp-action="Detail" asp-route-id="@item.Id">Chi tiết</a>
-                        </div>
-                        <div class="red_button add_to_cart_button">
-                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-                        </div>
-                    </div>
-                }
-            </div>
 
-        </div>
-    </div> *@
     <section class="product-grid-3">
         <div class="product-grid-box product-grid-box1">
             <img src="~/product/images/bidao.png" />
             <div class="product-grid-text">
                 <strong>Sản phẩm làm từ bí đao</strong>
                 <span>Chăm sóc da mụn chuyên sâu từ bí đao</span>
-                <a href="#">Mua Ngay</a>
-                </a>
             </div>
         </div>
 
@@ -53,8 +26,6 @@
             <div class="product-grid-text">
                 <strong>Sản phẩm làm từ nghệ Hưng Yên</strong>
                 <span>Da sáng rạng ngời từ nghệ Hưng Yên</span>
-                <a href="#">Mua Ngay</a>
-                </a>
             </div>
         </div>
 
@@ -63,8 +34,6 @@
             <div class="product-grid-text">
                 <strong>Sản phẩm làm từ tinh dầu bưởi</strong>
                 <span>Giảm gãy rụng và làm mềm tóc</span>
-                <a href="#">Mua Ngay</a>
-                </a>
             </div>
         </div>
 
@@ -73,8 +42,6 @@
             <div class="product-grid-text">
                 <strong>Sản phẩm làm từ cà phê Đắk Lắk</strong>
                 <span>Da body sáng mịn</span>
-                <a href="#">Mua Ngay</a>
-                </a>
             </div>
         </div>
 
@@ -83,62 +50,68 @@
             <div class="product-grid-text">
                 <strong>Sản phẩm làm từ hoa hồng</strong>
                 <span>Làm sạch sâu và dưỡng ẩm</span>
-                <a href="#">Mua Ngay</a>
-                </a>
             </div>
         </div>
-
     </section>
-    <div class="row">
-        <div class="col">
-            <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
-                @foreach (var item in Model)
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+                    @foreach (var item in Model)
+                    {
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Product image-->
+                                <div class="product_image">
+                                    <img src="@item.ImageUrl" alt="" style="height: 100%; width: 100%">
+                                </div>
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">@Html.DisplayFor(modelItem => item.Name)</h5>
+                                            <!-- Product price-->
+                                            <span class="text-muted text-decoration-line-through">@item.Price.ToString("#,##0") Vnd</span>
+                                        </div>
+                                    </div>
+                                    <div class="day">
+                                    <a asp-action="Detail" asp-route-id="@item.Id">Chi tiết</a>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                        <div class="text-center">
+                                            <a class="btn btn-outline-dark mt-auto"
+                                               asp-controller="ShoppingCart" asp-action="AddToCart"
+                                               asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">
+                                                Thêm vào giỏ hàng
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    }
+                </div>
+
+                @if (ViewBag.SuccessMessage != null)
                 {
-                    <div class="product-item men">
-                        <div class="product discount product_filter">
-                            <div class="product_image">
-                                <img src="@item.ImageUrl" alt="" style="height: 200px">
-                            </div>
-                            <div class="favorite favorite_left"></div>
-                            <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-                            <div class="product_info">
-                                <h6 class="product_name"><a href="single.html">@Html.DisplayFor(modelItem => item.Name)</a></h6>
-                                <div class="product_price">@item.Price.ToString("#,##0") Vnd</div>
-                            </div>
-                        </div>
-                        <div>
-                            <a asp-action="Detail" asp-route-id="@item.Id">Chi tiết</a>
-                        </div>
-                        <div class="red_button add_to_cart_button">
-                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-                        </div>
+                    <div id="successMessage" class="alert alert-success" role="alert">
+                        @ViewBag.SuccessMessage
                     </div>
+                    <script>
+                        // Ẩn thông báo sau thời gian quy định
+                        setTimeout(function () {
+                            document.getElementById('successMessage').style.display = 'none';
+                        }, @ViewBag.DisplayTime);
+                    </script>
                 }
-            </div>
+                <!--Hiền mẫu chỗ này-->
 
-        </div>
-    </div>
-    @if (ViewBag.SuccessMessage != null)
-    {
-        <div id="successMessage" class="alert alert-success" role="alert">
-            @ViewBag.SuccessMessage
-        </div>
-        <script>
-            // Ẩn thông báo sau thời gian quy định
-            setTimeout(function () {
-                document.getElementById('successMessage').style.display = 'none';
-            }, @ViewBag.DisplayTime);
-        </script>
-    }
-    <!--Hiền mẫu chỗ này-->
-
-    <script src="~/product/Script/jquery-3.7.1.js"></script>
-    <script>
-        var selector = '.new-p-heading li';
-        $(selector).on('click', function () {
-            $(selector).removeClass('active')
-            $(selector).addClass('active')
-        });
-    </script>
+                <script src="~/product/Script/jquery-3.7.1.js"></script>
+                <script>
+                    var selector = '.new-p-heading li';
+                    $(selector).on('click', function () {
+                        $(selector).removeClass('active')
+                        $(selector).addClass('active')
+                    });
+                </script>
 </body>
 </html>

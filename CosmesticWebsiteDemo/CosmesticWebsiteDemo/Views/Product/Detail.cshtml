@@ -1,4 +1,4 @@
-﻿@model CosmesticWebsiteDemo.Models.Product
+﻿@* @model CosmesticWebsiteDemo.Models.Product
 
 @{
     ViewData["Title"] = "Detail";
@@ -47,6 +47,81 @@
                 <a asp-action="Edit" asp-route-id="@Model.CategoryId" class="btn btn-primary">Edit</a>
                 <a asp-action="Index" class="btn btn-secondary">Back to List</a>
             </div>
+        </div>
+    </div>
+</div> *@
+@model CosmesticWebsiteDemo.Models.Product
+
+@{
+    ViewData["Title"] = "Detail";
+}
+<style>
+    product-detail {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 900px; /* Adjust as needed */
+        background-color: #ffe6e6;
+    }
+
+    .product-image {
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .product-info {
+        width: 50%;
+        padding: 1rem;
+    }
+
+        .product-info dt {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-info dd {
+            margin-bottom: 1rem;
+        }
+
+    .btn-group {
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<div class="container">
+    <h2>Chi tiết sản phẩm</h2>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Html.DisplayFor(model => model.ImageUrl)" class="img-thumbnail" alt="@Model.Name" />
+        </div>
+
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">
+                    Tên
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt class="col-sm-4">
+                    Giá
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Price) VNĐ
+                </dd>
+
+                <dt class="col-sm-4">
+                    Mô tả
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+            </dl>
+
+            <div class="d-flex justify-content-between mt-3">
+                <a asp-action="Index" class="btn btn-secondary">Quay trở lại trang chủ</a>
         </div>
     </div>
 </div>

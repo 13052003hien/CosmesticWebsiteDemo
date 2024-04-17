@@ -1,191 +1,503 @@
 ﻿@*Kiều nè*@
 @model IEnumerable<CosmesticWebsiteDemo.Models.Product>
-<@{
+@{
     ViewData["Title"] = "Home page";
     int numOfQuantity = 1;
 }
 <body>
-    <!--Slogan-->
-
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="row" style="background-color">
+                <video autoplay="autoplay" playsinline loop="loop" muted="muted" width="640px" height="360px">
+                    <source src="https://image.cocoonvietnam.com/uploads/2_282afe8dca.mp4">
+                </video>
+                <div class="col text-md-center">
+                    <h3><b><i>Sản phẩm mới</i></b></h3>
+                    <br>
+                    <h4><i>Sữa chống nắng bí đao</i></h4>
+                    </br>
+                    <p class=" col text-justify">
+                        Kết hợp các màng lọc thế hệ mới, chiết xuất bí đao, Synoxyl AZ và Melanin, sữa chống nắng bí đao giúp bảo vệ da trước tia UVA, UVB và ánh sáng năng lượng cao nhìn thấy được.
+                        Với kết cấu không trọng lượng, lướt nhẹ và thấm nhanh vào da mà không để lại vệt trắng, sữa chống nắng bí đao mang lại lớp nền trong trẻo, khoẻ khoắn và cảm giác thoải mái khi sử dụng. Sản phẩm phù hợp cho mọi loại da, kể cả da dầu và da nhạy cảm.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </br>
+    <Marquee>
+        <b><h1>MỸ PHẨM 100% THUẦN CHAY CHO NÉT ĐẸP VIỆT</h1></b>
+    </Marquee>
     <section class="py-5">
         <div class="col-sm-12 text-center">
-            <h2 class="intro"><i>Sản phẩm BÁN CHẠY</i></h2>
+            <h2 class="intro"><i>Sản phẩm từ bí đao</i></h2>
         </div>
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                @foreach (var item in Model)
-                {
-                        <div class="col mb-5">
-                        <div class="card h-100">
-                            
-                            <!-- Sale badge-->
-                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
-                            <!-- Product image-->
-                            <img class="card-img-top" src=@item.ImageUrl alt="..." width="auto" />
-                            <!-- Product details-->
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <!-- Product name-->
-                                    <h5 class="fw-bolder">@Html.DisplayFor(modelItem => item.Name)</h5>
-                                    <!-- Product reviews-->
-                                    <div class="d-flex justify-content-center small text-warning mb-2">
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                        <div class="bi-star-fill"></div>
-                                    </div>
-                                    <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">@item.Price.ToString("#,##0") Vnd</span>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z5322301407365_da64ee4ef34e8f8c85194a8b3967f354_db4782bf9d.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Nước tẩy trang bí đao 500ml</h5>
+                                <!-- Product reviews-->
+                                
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Với chiết xuất bí đao, Rau má và Tràm trà
+                                    </p>
                                 </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
                             </div>
-                            <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center">
-                                    <a class="btn btn-outline-dark mt-auto"
-                                       asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                }
-            </div>
-        </div>
-    </section>
-
-    <!--Best Seller(Cách làm chuyển slide sản phẩm)-->
-
-    @* <div class="row">
-				<div class="col">
-					<div class="product_slider_container">
-						<div class="owl-carousel owl-theme product_slider">
-
-							<!-- Slide 1 -->
-
-							<div class="owl-item product_slider_item">
-								<div class="product-item">
-									<div class="product discount">
-										<div class="product_image">
-											<img src="images/product_1.png" alt="">
-										</div>
-										<div class="favorite favorite_left"></div>
-										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-										<div class="product_info">
-											<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-											<div class="product_price">$520.00<span>$590.00</span></div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							
-						</div>
-
-						<!-- Slider Navigation -->
-
-						<div class="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
-							<i class="fa fa-chevron-left" aria-hidden="true"></i>
-						</div>
-						<div class="product_slider_nav_right product_slider_nav d-flex align-items-center justify-content-center flex-column">
-							<i class="fa fa-chevron-right" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-			</div> *@
-
-    <section class="py-5">
-        <div class="col-sm-12 text-center">
-            <h2 class="intro"><i>Sản phẩm MỚI</i></h2>
-        </div>
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                @foreach (var item in Model)
-                {
-                            <div class="col mb-5">
-                            <div class="card h-100">
-
-                                <!-- Sale badge-->
-                                <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
-                                <!-- Product image-->
-                                <img class="card-img-top" src=@item.ImageUrl alt="..." width="auto" />
-                                <!-- Product details-->
-                                <div class="card-body p-4">
-                                    <div class="text-center">
-                                        <!-- Product name-->
-                                        <h5 class="fw-bolder">@Html.DisplayFor(modelItem => item.Name)</h5>
-                                        <!-- Product reviews-->
-                                        <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                        </div>
-                                        <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">@item.Price.ToString("#,##0") Vnd</span>
-                                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z3526520930085_8478409d6ac4058a7b77514ce71bdada_d14a16f231.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Gel bí đao rửa mặt 310ml</h5>
+                                <!-- Product reviews-->
+                                
+                                <div class="text-dark mb-2">
+                                    <p>Thành phần chính gồm bí đao, rau má và tràm trà</p>
                                 </div>
-                                <!-- Product actions-->
-                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center">
-                                        <a class="btn btn-outline-dark mt-auto"
-                                           asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-                                    </div>
-                                </div>
-
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
                             </div>
                         </div>
-                }
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="col-sm-12 text-center">
-            <h2 class="intro"><i>Sản phẩm BÁN CHẠY</i></h2>
-        </div>
-        <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                @foreach (var item in Model)
-                {
-                            <div class="col mb-5">
-                            <div class="card h-100">
-
-                                <!-- Sale badge-->
-                                <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
-                                <!-- Product image-->
-                                <img class="card-img-top" src=@item.ImageUrl alt="..." width="auto" />
-                                <!-- Product details-->
-                                <div class="card-body p-4">
-                                    <div class="text-center">
-                                        <!-- Product name-->
-                                        <h5 class="fw-bolder">@Html.DisplayFor(modelItem => item.Name)</h5>
-                                        <!-- Product reviews-->
-                                        <div class="d-flex justify-content-center small text-warning mb-2">
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                            <div class="bi-star-fill"></div>
-                                        </div>
-                                        <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">@item.Price.ToString("#,##0") Vnd</span>
-                                    </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z5322301407365_da64ee4ef34e8f8c85194a8b3967f354_db4782bf9d.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Nước bí đao cân bằng da 310ml</h5>
+                                <!-- Product reviews-->
+                               
+                                <div class="text-dark mb-2">
+                                    <p>Thành phần chính gồm bí đao, rau má và tràm trà</p>
                                 </div>
-                                <!-- Product actions-->
-                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center">
-                                        <a class="btn btn-outline-dark mt-auto"
-                                           asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">Thêm vào giỏ hàng</a>
-                                    </div>
-                                </div>
-
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
                             </div>
                         </div>
-                }
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/Artboard_39_cb91c1c0cb.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Mặt nạ bí đao 100ml</h5>
+                                <div class="text-dark mb-2">
+                                    <p>Thành phần chính gồm bí đao, rau má và tràm trà</p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">345.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-   
+
+    <div class="col-sm-12 text-center">
+        <h2 class="intro"><i>Sản phẩm từ nghệ Hưng Yên</i></h2>
+    </div>
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/29892133_slide_2_4deceaff95.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Sữa rửa mặt nghệ Hưng Yên 310ml</h5>
+                                <!-- Product reviews-->
+                                
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Chiết xuất nghệ, cà rốt và AHAg gây khô da,
+                                        đồng thời hỗ trợ làm sạch tế bào chết, mang lại làn da đều màu, mềm mịn và tươi sáng rạng rỡ.
+
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z3491780045590_9f9ef20c543913f117fa94cdb8ab11ed_a4435b1ccd.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Nước nghệ Hưng Yên 310ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Chiết xuất nghệ, AHA 5%, Betaine
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/Artboard_48_eb4d856178.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Mặt nạ nghệ Hưng Yên 100ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Với tinh bột nghệ, Yến mạch và Vitamin B3
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">345.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4389425025003_c3b68e5737569f01eb630fb0c010951c_47aa72d54d.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Tinh chất nghệ Hưng Yên C22 30ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Chiết xuất nghệ, 22% Vitamin C (3-O-Ethyl Ascorbic Acid), 1% Hexylresorcinol, 4% Vitamin B3 (Niacinamide), 2% Acetyl Glucosamine (NAG) và 0.5% Ferulic Acid.
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">465.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-sm-12 text-center">
+        <h2 class="intro"><i>Sản phẩm từ tinh dầu bưởi</i></h2>
+    </div>
+    <section class="py-5" style="font-family: Poppins, Helvetica, sans-serif;">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4394607766854_2aca12462b79836bb49c3bf9aeef6bd1_1_fe9bcfe8db.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Nước dưỡng tóc tinh dầu bưởi 310mll</h5>
+                                
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Tinh dầu vỏ bưởi nguyên chất, Vitamin B5 (Panthenol), Xylishine, Baicapil, Bisabolol.
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">325.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4417151559351_bec04dd495bd915a3bf3fefa4cbdbf86_1_e17ffa4ca8.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Dầu gội bưởi không sulfate 500ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Tinh dầu bưởi, Vitamin B5, Xylishine™ và Axít amin
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">375.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/Ecom_Hair_B_Dau_xa_buoi_310ml_230821_54e210a145.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Dầu xả bưởi 310ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Tinh dầu vỏ bưởi, Xylishine™, Vitamin B5 (D-panthenol), Axít amin
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">185.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="col-sm-12 text-center">
+        <h2 class="intro"><i>Sản phẩm từ cà phê Đắk Lắk</i></h2>
+    </div>
+    <section class="py-5" style="font-family: Poppins, Helvetica, sans-serif;">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4144217404386_2fad2f6b8b47c1047f6e4e0728a96b04_af02e68c7c.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Gel rửa mặt cà phê Đắk Lắk 310ml</h5>
+                                <!-- Product reviews-->
+                               
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Dầu cà phê, caffeine & các axít amin.
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">295.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/26fb6ffcb3c3709d29d2_436613e656.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Cà phê Đắk Lắk làm sạch da chết mặt 150ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Hạt cà phê nguyên chất và bơ ca cao.
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">165.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Mới</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/CP_Ca_phe_moi_1a1b8ddbf1.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Cà phê Đắk Lắk làm sạch da chết môi 5g</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Với hạt cà phê nguyên chất xay mịn, dầu mắc - ca và bơ hạt mỡ
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">75.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4147355364575_e4b88c65711b8261d9c996e6797b60a1_83f203bec3.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Cà phê Đắk Lắk làm sạch da chết cơ thể 200ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Với hạt cà phê nguyên chất và Bơ ca cao
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">99.000 VNĐ</span>
+                            </div>
+                        </div>>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="col-sm-12 text-center">
+        <h2 class="intro"><i>Sản phẩm từ hoa hồng</i></h2>
+    </div>
+    <section class="py-5" style="font-family: Poppins, Helvetica, sans-serif;">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Bán chạy</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z4372805343245_27ea562aa5cabe55737d80cef8acfcb5_e4d50792fc.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Nước tẩy trang hoa hồng 310ml</h5>
+                               
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Nước cất hoa hồng hữu cơ, Vitamin B5 & Astaxanthin
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">245.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Sale badge-->
+                        <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Khuyến mãi</div>
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/z3526709681164_fea7a1510c21c6b18f292e02abb7f1ab_0a71044ada.jpg" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Gel rửa mặt hoa hồng 140ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Nước cất hoa hồng hữu cơ, Betaine, Chiết xuất hoa hồng
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">195.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <img class="card-img-top" src="https://image.cocoonvietnam.com/uploads/Artboard_26_copy_3_306c1ea1ba.png" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">Thạch hoa hồng dưỡng ẩm 100ml</h5>
+                                <!-- Product reviews-->
+                                <div class="text-dark mb-2">
+                                    <p>
+                                        Thành phần chính
+                                        Nước hoa hồng hữu cơ, Axit amin, Pentavitin và HA
+                                    </p>
+                                </div>
+                                <!-- Product price-->
+                                <span class="text-muted text-decoration-line-through">385.000 VNĐ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

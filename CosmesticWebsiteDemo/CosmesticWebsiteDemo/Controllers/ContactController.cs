@@ -30,7 +30,7 @@ namespace CosmesticWebsiteDemo.Controllers
         {
             var msg = contact.Name + "" + contact.Message;
             await _emailSender.SendEmailAsync(contact.Email, "Contact Mail", msg);
-            ViewBag.ConfirmMsg = "Thanks for your Mail";
+            ViewBag.ConfirmMsg = "Cảm ơn bạn đã phản hồi";
             await _contactRepository.AddContactAsync(contact);
             return View();
         }
