@@ -13,6 +13,6 @@
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product",
     "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\ShoppingCart"
   ],
-  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\appsettings.json",
+  "SelectedNode": "\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\db_cosmesticwebsite_demo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\db_cosmesticwebsite_demo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\areas\\admin\\controllers\\ordersmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\areas\\admin\\controllers\\ordersmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,12 +35,12 @@
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|d:\\l\u1EADp tr\u00ECnh web\\th\u1EF1c h\u00E0nh\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\cosmesticwebsitedemo\\db_cosmesticwebsite_demo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{6769190A-012C-4C18-95D9-0CCB46EA61B9}|CosmesticWebsiteDemo\\CosmesticWebsiteDemo.csproj|solutionrelative:cosmesticwebsitedemo\\db_cosmesticwebsite_demo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,27 +55,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersManagerController.cs",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
-              "ViewState": "AQIAAFMAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T18:13:55.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
-              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
-              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
-              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T18:13:31.527Z",
+              "Title": "DB_CosmesticWebsite_Demo.sql ",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\DB_CosmesticWebsite_Demo.sql",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\DB_CosmesticWebsite_Demo.sql",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\DB_CosmesticWebsite_Demo.sql",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\DB_CosmesticWebsite_Demo.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T02:20:49.029Z",
               "EditorCaption": ""
             },
             {
@@ -76,20 +70,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "OrdersManagerController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Admin\\Controllers\\OrdersManagerController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T18:13:55.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
+              "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
+              "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
+              "RelativeToolTip": "CosmesticWebsiteDemo\\Areas\\Admin\\Views\\ProductManager\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T18:13:31.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAIwP4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-17T16:49:29.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EFProductRepository.cs",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Repositories\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Repositories\\EFProductRepository.cs",
@@ -97,12 +116,11 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Repositories\\EFProductRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:41:39.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:41:39.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
@@ -110,12 +128,11 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T16:38:04.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:38:04.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
@@ -123,12 +140,11 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACwAAAAAAAAAAAAAwGAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T16:21:47.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:21:47.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Product\\Detail.cshtml",
@@ -136,12 +152,11 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Product\\Detail.cshtml",
               "ViewState": "AQIAAGMAAAAAAAAAAIAwwHMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T16:20:55.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T16:20:55.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp Tr\u00ECnh Web\\Th\u1EF1c h\u00E0nh\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
@@ -149,8 +164,7 @@
               "RelativeToolTip": "CosmesticWebsiteDemo\\Views\\Product\\Index.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAwwFwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-17T14:27:53.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T14:27:53.016Z"
             }
           ]
         },
